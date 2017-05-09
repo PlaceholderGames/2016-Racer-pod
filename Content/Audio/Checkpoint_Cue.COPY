@@ -1,0 +1,37 @@
+Begin Object Class=SoundCue Name="Checkpoint_Cue"
+   Begin Object Class=SoundCueGraph Name="SoundCueGraph_0"
+      Begin Object Class=SoundCueGraphNode Name="SoundCueGraphNode_0"
+      End Object
+      Begin Object Class=SoundCueGraphNode_Root Name="SoundCueGraphNode_Root_0"
+      End Object
+   End Object
+   Begin Object Class=SoundNodeWavePlayer Name="SoundNodeWavePlayer_0"
+   End Object
+   Begin Object Name="SoundCueGraph_0"
+      Begin Object Name="SoundCueGraphNode_0"
+         SoundNode=SoundNodeWavePlayer'Checkpoint_Cue:SoundNodeWavePlayer_0'
+         NodePosX=-250
+         NodePosY=-35
+         NodeGuid=D77351AB4BEF2CD761C20A83C2A9B9FC
+         CustomProperties Pin (PinId=1FA42F564EF597A852DF6092B39E76DA,PinName="Output",Direction="EGPD_Output",PinType.PinCategory="SoundNode",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(SoundCueGraphNode_Root_0 320F5B71474136399FB8908AA2F62DC5,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+      End Object
+      Begin Object Name="SoundCueGraphNode_Root_0"
+         NodePosY=-58
+         NodeGuid=45818C364658DE8E1406E381213E1D4D
+         CustomProperties Pin (PinId=320F5B71474136399FB8908AA2F62DC5,PinType.PinCategory="SoundNode",PinType.PinSubCategory="Root",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(SoundCueGraphNode_0 1FA42F564EF597A852DF6092B39E76DA,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+      End Object
+      Schema=Class'/Script/UnrealEd.SoundCueGraphSchema'
+      Nodes(0)=SoundCueGraphNode_Root'SoundCueGraphNode_Root_0'
+      Nodes(1)=SoundCueGraphNode'SoundCueGraphNode_0'
+      bAllowDeletion=False
+      GraphGuid=CA0B24DB469C8CA56ABEF59B092DF819
+   End Object
+   Begin Object Name="SoundNodeWavePlayer_0"
+      SoundWaveAssetPtr=/Game/VehicleAdv/Sound/Checkpoint.Checkpoint
+      GraphNode=SoundCueGraphNode'Checkpoint_Cue:SoundCueGraph_0.SoundCueGraphNode_0'
+   End Object
+   FirstNode=SoundNodeWavePlayer'SoundNodeWavePlayer_0'
+   AllNodes(0)=SoundNodeWavePlayer'SoundNodeWavePlayer_0'
+   SoundCueGraph=SoundCueGraph'SoundCueGraph_0'
+   Duration=0.873016
+End Object
